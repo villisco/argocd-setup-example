@@ -14,16 +14,8 @@ Custom configurations:
 __Kustomize__ is used to patch the base files over with environment specific configs.\
 For local testing get the kustomize tool from https://kustomize.io
 
-## Linked repositories
-
-Splitting up the repositories provides option to manage permissions separately.
-
-- https://github.com/villisco/argocd-apps - sync source for __apps__ (kind: Application)
-- https://github.com/villisco/argocd-projects - sync source for __projects__ (kind: Application)
-
 Process flowchart:\
 ![argocd](./add_app_flow.png)
-
 
 ## Repository structure
 
